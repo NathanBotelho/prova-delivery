@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35vh;
+    font-family: "cinzel", sans-serif;
+  }
+  
+  header img {
+    width: 10vw;
+    border-radius: 100%;
+    border: solid 5px rgba(36, 76, 36, 0.525);
+    cursor: pointer;
+  }
+  
+  header img:hover {
+    opacity: 0.5;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    opacity: 1;
+  }
+  
+  a:hover {
+    color: rgb(27, 22, 22);
+    opacity: ;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+  }
+  
+  .text {
+    text-align: center;
+  }
+  
+  .vendidos {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .vendidos img {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 100%;
+    border: solid 5px rgba(36, 76, 36, 0.525);
+    cursor: pointer;
+    opacity: 0.3;
+  }
+  
+  .vendidos img:hover {
+    opacity: 1;
+  }
+  
+  h2 {
+    margin-top: 2%;
+    color: rgba(36, 76, 36, 0.895);
+    font-size: 2rem;
+  }
+  
+  .produtos img {
+    width: 27vw;
+    height: 45vh;
+    opacity: 1;
+  }
+  
+  .produtos img:hover {
+    
+  }
+  
+  .produtos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  figure {
+    margin: 30px;
+  }
+  
+  figcaption {
+    margin: 10px;
+    background-color: rgba(36, 76, 36, 0.683);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  figcaption:hover {
+    
+  }
+  
+  footer {
+    display: block;
+    justify-content: space-evenly;
+  }
+  
+  .rodapé {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .endereço {
+    margin-top: 3%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo_final {
+    flex-direction: center;
+  }
+  
+  .logo_final img {
+    width: 15vw;
+    height: 30vh;
+    border-radius: 100%;
+    border: solid 3px;
+  }
+  
+  .logo_final img:hover {
+    
+  }
+  
+  .informaçoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .horarios {
+    margin: 50px;
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+  }
+  
+  .rede_social {
+    margin: 50px;
+    text-align: center;
+    width: 30vw;
+    height: 30vh;
+  }
+  
+  h3 {
+    margin-bottom: 10%;
+  }
+  
+  p {
+    display: block;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #535353;
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  li img {
+    width: 3vw;
+    height: 6vh;
+    cursor: pointer;
+    opacity: 1;
+  }
+  
+  li img:hover {
+    
+  }
+  
+  h4 {
+    margin-bottom: 10%;
+  }
+    
+  .endereço p {
+    color: black;
+  }
+
+  .by{
+    height: 30%;
+    text-align: center;
+
+  }
+
+  
